@@ -1,3 +1,5 @@
+package models;
+
 import java.util.Objects;
 
 public class Departement {
@@ -47,7 +49,7 @@ public class Departement {
 
     @Override
     public String toString() {
-        return "Departement{" +
+        return "models.Departement{" +
                 "id=" + id +
                 ", nomDepartement='" + nomDepartement + '\'' +
                 ", nbrEmployes=" + nbrEmployes +

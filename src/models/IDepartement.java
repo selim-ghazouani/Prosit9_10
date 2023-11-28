@@ -1,3 +1,5 @@
+package models;
+
 public interface IDepartement <T>{
     public void ajouterDepartement(T t);
     public boolean rechercherDepartement(String nom);
